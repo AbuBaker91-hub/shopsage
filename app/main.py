@@ -9,6 +9,7 @@ from aiforge_core.app import create_app
 from aiforge_core.db import connect, run_migrations
 from aiforge_core.llm import AllProvidersFailed, ValidationFailed
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
 from . import catalog
@@ -24,6 +25,11 @@ mimetypes.add_type("text/javascript", ".js")
 
 def create_shopsage_app(conn, router, embedder) -> FastAPI:
     app = create_app("shopsage", static_dir=ROOT / "static")
+    # the widget embeds on any storefront with one script tag, so /chat and
+    # /products must answer cross-origin requests
+    app.add_middleware(
+        CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"]
+    )
     app.state.conn = conn
     app.state.router = router
     app.state.embedder = embedder

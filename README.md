@@ -10,12 +10,23 @@ Store owners want a chat assistant, but off-the-shelf bots invent products, quot
 - Compares 2–3 products with a table computed in code: the three differences that matter, ordered price → weight → capacity → material
 - Retrieves candidates with hybrid search (pgvector + Postgres full text) over one chunk per product
 - Refuses honestly: ask for tents in a backpack store and it says the store does not carry them, with zero cards
-- Embeds on any page with one script tag: `<script src="/static/widget.js" data-endpoint="/chat"></script>`
+- Embeds on any page with one script tag (CORS is enabled for the widget endpoints): `<script src="/static/widget.js" data-endpoint="/chat"></script>`
 - Ships a fake storefront (`/`) so the whole flow is clickable in seconds
 - Runs fully offline with `LLM_PROVIDER_ORDER=mock` and `EMBEDDER=stub` — no keys, no downloads
 - Optional `scripts/shopify_sync.py` pulls a real catalog from a Shopify Storefront API (free Partner dev store)
 
 (Loom video coming soon) · (live demo coming soon)
+
+| The demo storefront | Grounded recommendations |
+| --- | --- |
+| ![Fake storefront with the widget launcher](docs/screenshots/01-storefront.png) | ![Product cards with DB prices and stock badges](docs/screenshots/03-recommendations.png) |
+
+| Comparison computed in code | Honest about stock |
+| --- | --- |
+| ![Three-row compare table with DB values](docs/screenshots/04-compare-table.png) | ![Out of stock badge, no purchase link](docs/screenshots/05-out-of-stock.png) |
+
+![The widget mounted on a blank page by a single script tag](docs/screenshots/07-embed-one-script-tag.png)
+*A blank HTML file containing nothing but the script tag — the widget mounts and answers cross-origin.*
 
 ## Architecture
 
