@@ -15,7 +15,7 @@ Store owners want a chat assistant, but off-the-shelf bots invent products, quot
 - Runs fully offline with `LLM_PROVIDER_ORDER=mock` and `EMBEDDER=stub` — no keys, no downloads
 - Optional `scripts/shopify_sync.py` pulls a real catalog from a Shopify Storefront API (free Partner dev store)
 
-(Loom video coming soon) · (live demo coming soon)
+[▶ Watch the 30-second demo video](docs/shopsage-demo.mp4) · (live demo coming soon)
 
 | The demo storefront | Grounded recommendations |
 | --- | --- |
@@ -79,6 +79,26 @@ Zero-key offline demo: set `LLM_PROVIDER_ORDER=mock` and `EMBEDDER=stub` in `.en
 3. First boot runs migrations and seeds the sample catalog automatically (idempotent).
 4. Confirm `https://<app>.onrender.com/health` returns `{"ok": true}`.
 5. Rate limit stays on. Free Gemini quota is enough for demo traffic.
+
+### Deploy (Vercel serverless, keyless demo)
+
+`api/index.py` + `vercel.json` are already wired: every route is served by one
+Python serverless function that applies migrations idempotently at cold start
+but never re-seeds the catalog.
+
+1. Neon: free project with the `vector` extension, copy the pooled `DATABASE_URL`.
+2. Seed the remote DB once from your machine (migrations + 40 products + chunks):
+
+   ```
+   set DATABASE_URL=postgresql://user:pass@host/db
+   set EMBEDDER=stub
+   .venv\Scripts\python.exe -m app.seed
+   ```
+
+3. Vercel: import the repo and set env vars `DATABASE_URL`,
+   `LLM_PROVIDER_ORDER=mock`, `EMBEDDER=stub`, `APP_RATE_LIMIT_PER_MIN=30`.
+   `requirements.txt` holds the runtime deps (no torch, no dev tools).
+4. `/admin/reload` still works serverlessly if the catalog file changes.
 
 ## Tests
 

@@ -1,0 +1,5 @@
+# Runtime deps for the Vercel serverless demo (no dev tools, no sentence-transformers:
+# the demo runs with EMBEDDER=stub and LLM_PROVIDER_ORDER=mock).
+# aiforge-core pins fastapi, uvicorn, pydantic, psycopg[binary] and pgvector.
+aiforge-core @ git+https://github.com/AbuBaker91-hub/aiforge-core@v0.1.0
+fastapi>=0.115
