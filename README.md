@@ -15,7 +15,7 @@ Store owners want a chat assistant, but off-the-shelf bots invent products, quot
 - Runs fully offline with `LLM_PROVIDER_ORDER=mock` and `EMBEDDER=stub` — no keys, no downloads
 - Optional `scripts/shopify_sync.py` pulls a real catalog from a Shopify Storefront API (free Partner dev store)
 
-[▶ Watch the 30-second demo video](docs/shopsage-demo.mp4) · (live demo coming soon)
+[▶ Watch the 30-second demo video](docs/shopsage-demo.mp4) · [Try the live demo](https://shopsage-two.vercel.app)
 
 | The demo storefront | Grounded recommendations |
 | --- | --- |
