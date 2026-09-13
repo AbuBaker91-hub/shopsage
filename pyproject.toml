@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "shopsage"
+version = "0.1.0"
+description = "Catalog-grounded AI shopping assistant with an embeddable chat widget"
+requires-python = ">=3.12"
+dependencies = [
+    "aiforge-core @ git+https://github.com/AbuBaker91-hub/aiforge-core@v0.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "httpx",
+]
+demo = [
+    "aiforge-core[embeddings] @ git+https://github.com/AbuBaker91-hub/aiforge-core@v0.1.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

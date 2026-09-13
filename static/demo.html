@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Summit Supply Co. — ShopSage demo storefront</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    body { font: 16px/1.5 system-ui, sans-serif; color: #1c2430; background: #f7f8f7; }
+    header { background: #12241d; color: #fff; padding: 16px 24px; display: flex; align-items: center; gap: 12px; }
+    .logo { font-size: 22px; font-weight: 800; letter-spacing: .5px; }
+    .logo span { color: #7fd1ae; }
+    .hero { padding: 48px 24px 24px; text-align: center; }
+    .hero h1 { font-size: 30px; margin-bottom: 8px; }
+    .hero p { color: #55605c; }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 900px; margin: 24px auto 64px; padding: 0 24px; }
+    .tile { background: #fff; border: 1px solid #e2e7e4; border-radius: 14px; padding: 20px; text-align: center; }
+    .tile .art { font-size: 56px; background: #e6efe9; border-radius: 10px; padding: 24px 0; margin-bottom: 14px; }
+    .tile h2 { font-size: 17px; margin-bottom: 4px; }
+    .tile .price { color: #1f6f54; font-weight: 700; }
+    .tile p { font-size: 13px; color: #55605c; margin-top: 8px; }
+    footer { text-align: center; color: #8b948f; font-size: 13px; padding: 24px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">⛰️ Summit<span>Supply</span> Co.</div>
+  </header>
+
+  <section class="hero">
+    <h1>Packs built for the long way round</h1>
+    <p>This is a fake storefront. The real product is the chat bubble in the corner — ask it anything.</p>
+  </section>
+
+  <section class="tiles">
+    <div class="tile">
+      <div class="art">🎒</div>
+      <h2>Trailway 22 Daypack</h2>
+      <div class="price">$79.00</div>
+      <p>Ventilated day hiker for trail-to-town weekends.</p>
+    </div>
+    <div class="tile">
+      <div class="art">🎒</div>
+      <h2>Ridgeline 38 Trail Pack</h2>
+      <div class="price">$129.00</div>
+      <p>Adjustable overnight pack with rain cover pocket.</p>
+    </div>
+    <div class="tile">
+      <div class="art">🎒</div>
+      <h2>SummitCore 65 Expedition Pack</h2>
+      <div class="price">$249.00</div>
+      <p>Aluminum-framed hauler for multi-day loads.</p>
+    </div>
+  </section>
+
+  <footer>ShopSage demo — the widget below is mounted by one script tag.</footer>
+
+  <script src="/static/widget.js" data-endpoint="/chat"></script>
+</body>
+</html>

@@ -1,0 +1,402 @@
+[
+  {
+    "handle": "trailway-22",
+    "title": "Trailway 22 Daypack",
+    "description": "Lightweight daypack for day hikes and city-to-trail weekends, with a ventilated back panel and dual bottle pockets.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "hiking", "lightweight"],
+    "price_cents": 7900,
+    "stock": 14,
+    "attributes": {"size": "S", "capacity_l": 22, "weight_kg": 0.9, "material": "ripstop nylon"}
+  },
+  {
+    "handle": "ridgeline-38",
+    "title": "Ridgeline 38 Trail Pack",
+    "description": "Versatile overnight pack with an adjustable torso, rain cover pocket and trekking-pole loops.",
+    "category": "hiking-backpacks",
+    "tags": ["overnight", "hiking", "adjustable"],
+    "price_cents": 12900,
+    "stock": 8,
+    "attributes": {"size": "M", "capacity_l": 38, "weight_kg": 1.4, "material": "210D nylon"}
+  },
+  {
+    "handle": "summitcore-65",
+    "title": "SummitCore 65 Expedition Pack",
+    "description": "Full-size expedition hauler with an aluminum frame, hip-belt pockets and a floating lid for multi-day loads.",
+    "category": "hiking-backpacks",
+    "tags": ["expedition", "multi-day", "frame"],
+    "price_cents": 24900,
+    "stock": 5,
+    "attributes": {"size": "L", "capacity_l": 65, "weight_kg": 2.4, "material": "Cordura"}
+  },
+  {
+    "handle": "featherlite-18",
+    "title": "FeatherLite 18 Ultralight",
+    "description": "Barely-there summit bag that packs into its own pocket; ideal as a peak-day or travel spare.",
+    "category": "hiking-backpacks",
+    "tags": ["ultralight", "packable", "summit"],
+    "price_cents": 5900,
+    "stock": 22,
+    "attributes": {"size": "one size", "capacity_l": 18, "weight_kg": 0.4, "material": "siliconized nylon"}
+  },
+  {
+    "handle": "alpinerush-50",
+    "title": "AlpineRush 50 Trekking Pack",
+    "description": "Alpine trekking pack with ice-axe carry, a wraparound hip belt and a stripped-down 1.9 kg build.",
+    "category": "hiking-backpacks",
+    "tags": ["trekking", "alpine", "multi-day"],
+    "price_cents": 18900,
+    "stock": 0,
+    "attributes": {"size": "M", "capacity_l": 50, "weight_kg": 1.9, "material": "ripstop nylon"}
+  },
+  {
+    "handle": "stonepath-28",
+    "title": "StonePath 28 Hiker",
+    "description": "Everyday hiking pack in recycled fabric with a padded laptop sleeve for trail-to-office days.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "recycled", "commute"],
+    "price_cents": 9900,
+    "stock": 11,
+    "attributes": {"size": "M", "capacity_l": 28, "weight_kg": 1.2, "material": "recycled polyester"}
+  },
+  {
+    "handle": "cloudtrek-35",
+    "title": "CloudTrek 35 Ultralight",
+    "description": "Sub-kilo framed pack for fastpacking weekends; Dyneema body shrugs off rain and rock.",
+    "category": "hiking-backpacks",
+    "tags": ["ultralight", "fastpacking", "weekend"],
+    "price_cents": 21900,
+    "stock": 9,
+    "attributes": {"size": "M", "capacity_l": 35, "weight_kg": 0.98, "material": "Dyneema composite"}
+  },
+  {
+    "handle": "norwind-70",
+    "title": "Norwind 70 Trekking Pack",
+    "description": "Big-mile hauler with a steel-sprung back system, front zip access and a detachable summit lid.",
+    "category": "hiking-backpacks",
+    "tags": ["expedition", "trekking", "large"],
+    "price_cents": 27900,
+    "stock": 4,
+    "attributes": {"size": "L", "capacity_l": 70, "weight_kg": 2.6, "material": "Cordura"}
+  },
+  {
+    "handle": "mistvale-24",
+    "title": "MistVale 24 Daypack",
+    "description": "Rainy-climate day hiker with taped seams, an integrated rain cover and quick-dry mesh straps.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "waterproof", "hiking"],
+    "price_cents": 8900,
+    "stock": 16,
+    "attributes": {"size": "S", "capacity_l": 24, "weight_kg": 1.0, "material": "TPU-coated nylon"}
+  },
+  {
+    "handle": "pinecrest-30",
+    "title": "PineCrest 30 Trail Pack",
+    "description": "Classic top-loader for long day hikes, with a hydration port and stretch stash pocket.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "hydration", "hiking"],
+    "price_cents": 10900,
+    "stock": 13,
+    "attributes": {"size": "M", "capacity_l": 30, "weight_kg": 1.3, "material": "210D nylon"}
+  },
+  {
+    "handle": "duskrunner-44",
+    "title": "DuskRunner 44 Weekend Pack",
+    "description": "Weekend-size pack with a zippered sleeping-bag compartment and stowable rope straps.",
+    "category": "hiking-backpacks",
+    "tags": ["weekend", "overnight", "hiking"],
+    "price_cents": 15900,
+    "stock": 7,
+    "attributes": {"size": "M", "capacity_l": 44, "weight_kg": 1.7, "material": "ripstop nylon"}
+  },
+  {
+    "handle": "graniteridge-55",
+    "title": "GraniteRidge 55 Backpacking Pack",
+    "description": "Load-hauling workhorse with a ventilated trampoline back and dual ice-axe loops.",
+    "category": "hiking-backpacks",
+    "tags": ["backpacking", "multi-day", "ventilated"],
+    "price_cents": 19900,
+    "stock": 0,
+    "attributes": {"size": "L", "capacity_l": 55, "weight_kg": 2.1, "material": "420D nylon"}
+  },
+  {
+    "handle": "swiftmoor-20",
+    "title": "SwiftMoor 20 Trail Runner",
+    "description": "Running-vest hybrid with chest flasks pockets and a bounce-free harness for fast hikes.",
+    "category": "hiking-backpacks",
+    "tags": ["trail-running", "vest", "lightweight"],
+    "price_cents": 11900,
+    "stock": 18,
+    "attributes": {"size": "S", "capacity_l": 20, "weight_kg": 0.6, "material": "stretch mesh nylon"}
+  },
+  {
+    "handle": "emberline-26",
+    "title": "EmberLine 26 Daypack",
+    "description": "Warm-toned canvas daypack with leather pulls; rugged looks, trail-ready suspension.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "canvas", "heritage"],
+    "price_cents": 9400,
+    "stock": 10,
+    "attributes": {"size": "M", "capacity_l": 26, "weight_kg": 1.45, "material": "waxed canvas"}
+  },
+  {
+    "handle": "glacierway-80",
+    "title": "GlacierWay 80 Expedition Pack",
+    "description": "Our largest expedition pack: dual aluminum stays, crampon patch and a removable 12 L lid pack.",
+    "category": "hiking-backpacks",
+    "tags": ["expedition", "winter", "large"],
+    "price_cents": 32900,
+    "stock": 3,
+    "attributes": {"size": "L", "capacity_l": 80, "weight_kg": 2.9, "material": "Cordura"}
+  },
+  {
+    "handle": "larkspur-16",
+    "title": "Larkspur 16 Mini Daypack",
+    "description": "Compact daypack sized for short hikes and travel, with a secure phone pocket on the strap.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "compact", "travel"],
+    "price_cents": 5400,
+    "stock": 25,
+    "attributes": {"size": "one size", "capacity_l": 16, "weight_kg": 0.5, "material": "recycled polyester"}
+  },
+  {
+    "handle": "thornfield-42",
+    "title": "Thornfield 42 Trail Pack",
+    "description": "Thorn-proof brush pack with a burly bottom panel and machete-ready side lashing.",
+    "category": "hiking-backpacks",
+    "tags": ["bushcraft", "overnight", "rugged"],
+    "price_cents": 16900,
+    "stock": 6,
+    "attributes": {"size": "M", "capacity_l": 42, "weight_kg": 1.8, "material": "1000D Cordura"}
+  },
+  {
+    "handle": "aurorapeak-32",
+    "title": "AuroraPeak 32 Ultralight",
+    "description": "Frameless ultralight for disciplined packers; roll-top closure and a 0.7 kg scale reading.",
+    "category": "hiking-backpacks",
+    "tags": ["ultralight", "frameless", "roll-top"],
+    "price_cents": 17900,
+    "stock": 12,
+    "attributes": {"size": "M", "capacity_l": 32, "weight_kg": 0.7, "material": "Dyneema composite"}
+  },
+  {
+    "handle": "willowbend-25",
+    "title": "WillowBend 25 Women's Daypack",
+    "description": "Women's-fit day hiker with a shorter torso, contoured straps and a magnetic bottle holster.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "womens-fit", "hiking"],
+    "price_cents": 9900,
+    "stock": 0,
+    "attributes": {"size": "S", "capacity_l": 25, "weight_kg": 1.1, "material": "210D nylon"}
+  },
+  {
+    "handle": "basaltrim-48",
+    "title": "BasaltRim 48 Backpacking Pack",
+    "description": "Three-season backpacking staple with a hip-transfer frame and top plus front access.",
+    "category": "hiking-backpacks",
+    "tags": ["backpacking", "multi-day", "three-season"],
+    "price_cents": 17400,
+    "stock": 9,
+    "attributes": {"size": "M", "capacity_l": 48, "weight_kg": 1.95, "material": "420D nylon"}
+  },
+  {
+    "handle": "fernhollow-21",
+    "title": "FernHollow 21 Daypack",
+    "description": "Budget-friendly starter daypack with a sternum whistle and reflective night trims.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "budget", "starter"],
+    "price_cents": 4900,
+    "stock": 30,
+    "attributes": {"size": "one size", "capacity_l": 21, "weight_kg": 0.8, "material": "600D polyester"}
+  },
+  {
+    "handle": "kestrelgap-36",
+    "title": "KestrelGap 36 Trail Pack",
+    "description": "All-rounder for long days and light overnights; tuck-away hip belt and bird-watch lid pocket.",
+    "category": "hiking-backpacks",
+    "tags": ["overnight", "all-rounder", "hiking"],
+    "price_cents": 13900,
+    "stock": 8,
+    "attributes": {"size": "M", "capacity_l": 36, "weight_kg": 1.35, "material": "ripstop nylon"}
+  },
+  {
+    "handle": "coldbrook-60",
+    "title": "ColdBrook 60 Winter Pack",
+    "description": "Winter tourer with ski-carry wings, an avalanche-tool sleeve and glove-friendly buckles.",
+    "category": "hiking-backpacks",
+    "tags": ["winter", "ski", "multi-day"],
+    "price_cents": 23900,
+    "stock": 5,
+    "attributes": {"size": "L", "capacity_l": 60, "weight_kg": 2.3, "material": "840D ballistic nylon"}
+  },
+  {
+    "handle": "harborlight-27",
+    "title": "HarborLight 27 Travel Daypack",
+    "description": "Carry-on friendly daypack that opens flat like a suitcase, with a hidden passport pocket.",
+    "category": "hiking-backpacks",
+    "tags": ["travel", "daypack", "carry-on"],
+    "price_cents": 11400,
+    "stock": 15,
+    "attributes": {"size": "M", "capacity_l": 27, "weight_kg": 1.15, "material": "recycled polyester"}
+  },
+  {
+    "handle": "silvermoss-40",
+    "title": "SilverMoss 40 Weekend Pack",
+    "description": "Weekender with a detachable day lid, dual side zips and moss-green colourway.",
+    "category": "hiking-backpacks",
+    "tags": ["weekend", "overnight", "hiking"],
+    "price_cents": 14900,
+    "stock": 0,
+    "attributes": {"size": "M", "capacity_l": 40, "weight_kg": 1.6, "material": "210D nylon"}
+  },
+  {
+    "handle": "brackenridge-52",
+    "title": "BrackenRidge 52 Backpacking Pack",
+    "description": "Comfort-tuned hauler with a pivoting hip belt that moves with your stride on rough ground.",
+    "category": "hiking-backpacks",
+    "tags": ["backpacking", "comfort", "multi-day"],
+    "price_cents": 20900,
+    "stock": 7,
+    "attributes": {"size": "L", "capacity_l": 52, "weight_kg": 2.05, "material": "420D nylon"}
+  },
+  {
+    "handle": "quartzline-19",
+    "title": "QuartzLine 19 Hydration Pack",
+    "description": "Slim hydration pack with a 2 L reservoir included and a magnetic hose dock.",
+    "category": "hiking-backpacks",
+    "tags": ["hydration", "daypack", "lightweight"],
+    "price_cents": 8400,
+    "stock": 19,
+    "attributes": {"size": "one size", "capacity_l": 19, "weight_kg": 0.65, "material": "ripstop nylon"}
+  },
+  {
+    "handle": "oakhaven-33",
+    "title": "OakHaven 33 Trail Pack",
+    "description": "Family-hike favourite with a wipe-clean liner, snack pockets everywhere and a sit-mat sleeve.",
+    "category": "hiking-backpacks",
+    "tags": ["family", "daypack", "hiking"],
+    "price_cents": 10400,
+    "stock": 12,
+    "attributes": {"size": "M", "capacity_l": 33, "weight_kg": 1.25, "material": "600D polyester"}
+  },
+  {
+    "handle": "stormcairn-58",
+    "title": "StormCairn 58 Backpacking Pack",
+    "description": "Foul-weather hauler with a welded roll-top main body and drainage-grommeted pockets.",
+    "category": "hiking-backpacks",
+    "tags": ["waterproof", "backpacking", "multi-day"],
+    "price_cents": 22900,
+    "stock": 6,
+    "attributes": {"size": "L", "capacity_l": 58, "weight_kg": 2.2, "material": "TPU-coated nylon"}
+  },
+  {
+    "handle": "meadowrun-23",
+    "title": "MeadowRun 23 Daypack",
+    "description": "Breezy warm-weather daypack with a full mesh back channel and sunglasses garage.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "summer", "ventilated"],
+    "price_cents": 7400,
+    "stock": 17,
+    "attributes": {"size": "S", "capacity_l": 23, "weight_kg": 0.85, "material": "ripstop nylon"}
+  },
+  {
+    "handle": "flintvale-46",
+    "title": "FlintVale 46 Trekking Pack",
+    "description": "Scrambler's pack with a narrow profile for airy ridgelines and a rope-strap lid.",
+    "category": "hiking-backpacks",
+    "tags": ["trekking", "scrambling", "alpine"],
+    "price_cents": 18400,
+    "stock": 0,
+    "attributes": {"size": "M", "capacity_l": 46, "weight_kg": 1.75, "material": "420D nylon"}
+  },
+  {
+    "handle": "sablecreek-29",
+    "title": "SableCreek 29 Daypack",
+    "description": "Photographer-friendly day hiker with a side hatch to the padded main compartment.",
+    "category": "hiking-backpacks",
+    "tags": ["daypack", "camera", "hiking"],
+    "price_cents": 12400,
+    "stock": 9,
+    "attributes": {"size": "M", "capacity_l": 29, "weight_kg": 1.3, "material": "840D ballistic nylon"}
+  },
+  {
+    "handle": "wanderfell-64",
+    "title": "WanderFell 64 Trekking Pack",
+    "description": "Thru-hike ready with a lifetime-rated frame, bounce-free load lifters and big hip pockets.",
+    "category": "hiking-backpacks",
+    "tags": ["thru-hike", "trekking", "multi-day"],
+    "price_cents": 25900,
+    "stock": 4,
+    "attributes": {"size": "L", "capacity_l": 64, "weight_kg": 2.35, "material": "Cordura"}
+  },
+  {
+    "handle": "lunamesa-15",
+    "title": "LunaMesa 15 Packable Daypack",
+    "description": "Stuffs to grapefruit size, weighs next to nothing; a glovebox and suitcase essential.",
+    "category": "hiking-backpacks",
+    "tags": ["packable", "ultralight", "travel"],
+    "price_cents": 3900,
+    "stock": 40,
+    "attributes": {"size": "one size", "capacity_l": 15, "weight_kg": 0.3, "material": "siliconized nylon"}
+  },
+  {
+    "handle": "copperhollow-37",
+    "title": "CopperHollow 37 Trail Pack",
+    "description": "Desert-tone all-rounder with dust-sealed zips and a wide-mouth top opening.",
+    "category": "hiking-backpacks",
+    "tags": ["all-rounder", "hiking", "overnight"],
+    "price_cents": 13400,
+    "stock": 10,
+    "attributes": {"size": "M", "capacity_l": 37, "weight_kg": 1.5, "material": "600D polyester"}
+  },
+  {
+    "handle": "gullwing-31",
+    "title": "GullWing 31 Coastal Pack",
+    "description": "Coast-path pack with corrosion-proof hardware and a wet/dry split compartment.",
+    "category": "hiking-backpacks",
+    "tags": ["coastal", "daypack", "waterproof"],
+    "price_cents": 11900,
+    "stock": 11,
+    "attributes": {"size": "M", "capacity_l": 31, "weight_kg": 1.2, "material": "TPU-coated nylon"}
+  },
+  {
+    "handle": "highfen-68",
+    "title": "HighFen 68 Expedition Pack",
+    "description": "Guide-grade expedition pack with a barrel-load main and triple-density shoulder straps.",
+    "category": "hiking-backpacks",
+    "tags": ["expedition", "guide", "large"],
+    "price_cents": 28900,
+    "stock": 0,
+    "attributes": {"size": "L", "capacity_l": 68, "weight_kg": 2.7, "material": "1000D Cordura"}
+  },
+  {
+    "handle": "rowanpath-34",
+    "title": "RowanPath 34 Women's Trail Pack",
+    "description": "Women's-fit overnighter with an interchangeable hip belt and a plush lumbar pad.",
+    "category": "hiking-backpacks",
+    "tags": ["womens-fit", "overnight", "hiking"],
+    "price_cents": 14400,
+    "stock": 8,
+    "attributes": {"size": "S", "capacity_l": 34, "weight_kg": 1.4, "material": "210D nylon"}
+  },
+  {
+    "handle": "veldtrunner-41",
+    "title": "VeldtRunner 41 Safari Pack",
+    "description": "Savanna-tested pack with insect-proof mesh, a dust flap and quick-cinch compression.",
+    "category": "hiking-backpacks",
+    "tags": ["safari", "travel", "overnight"],
+    "price_cents": 16400,
+    "stock": 6,
+    "attributes": {"size": "M", "capacity_l": 41, "weight_kg": 1.65, "material": "ripstop nylon"}
+  },
+  {
+    "handle": "birchknoll-45",
+    "title": "BirchKnoll 45 Weekend Pack",
+    "description": "Balanced weekend pack with a U-zip front panel, dual hip pockets and quiet buckles.",
+    "category": "hiking-backpacks",
+    "tags": ["weekend", "overnight", "hiking"],
+    "price_cents": 15400,
+    "stock": 13,
+    "attributes": {"size": "M", "capacity_l": 45, "weight_kg": 1.55, "material": "420D nylon"}
+  }
+]
